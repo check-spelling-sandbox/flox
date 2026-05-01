@@ -581,11 +581,11 @@ manifest packages were built via the traditional flox manifest workflow.*/
     ///  ],
     ///  "properties": {
     ///    "egress_uri": {
-    ///      "title": "Egress Uri",
+    ///      "title": "Egress URI",
     ///      "type": "string"
     ///    },
     ///    "ingress_uri": {
-    ///      "title": "Ingress Uri",
+    ///      "title": "Ingress URI",
     ///      "type": "string"
     ///    },
     ///    "store_type": {
@@ -1623,7 +1623,7 @@ Attributes:
     ///      "$ref": "#/components/schemas/BuildType"
     ///    },
     ///    "cache_uri": {
-    ///      "title": "Cache Uri",
+    ///      "title": "Cache URI",
     ///      "type": [
     ///        "string",
     ///        "null"
@@ -1846,7 +1846,7 @@ Attributes:
     ///      "$ref": "#/components/schemas/BuildType"
     ///    },
     ///    "cache_uri": {
-    ///      "title": "Cache Uri",
+    ///      "title": "Cache URI",
     ///      "type": [
     ///        "string",
     ///        "null"
@@ -2827,7 +2827,7 @@ Attributes:
     ///      ]
     ///    },
     ///    "cache_uri": {
-    ///      "title": "Cache Uri",
+    ///      "title": "Cache URI",
     ///      "type": [
     ///        "string",
     ///        "null"
@@ -3448,7 +3448,7 @@ Attributes:
     ///      "additionalProperties": true
     ///    },
     ///    "ingress_uri": {
-    ///      "title": "Ingress Uri",
+    ///      "title": "Ingress URI",
     ///      "type": [
     ///        "string",
     ///        "null"
@@ -3713,7 +3713,7 @@ Attributes:
     ///      ]
     ///    },
     ///    "cache_uri": {
-    ///      "title": "Cache Uri",
+    ///      "title": "Cache URI",
     ///      "type": [
     ///        "string",
     ///        "null"

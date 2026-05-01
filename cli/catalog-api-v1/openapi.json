@@ -2254,11 +2254,11 @@
           },
           "ingress_uri": {
             "type": "string",
-            "title": "Ingress Uri"
+            "title": "Ingress URI"
           },
           "egress_uri": {
             "type": "string",
-            "title": "Egress Uri"
+            "title": "Egress URI"
           }
         },
         "type": "object",
@@ -2670,7 +2670,7 @@
             "$ref": "#/components/schemas/PackageDerivation-Output"
           },
           "cache_uri": {
-            "title": "Cache Uri",
+            "title": "Cache URI",
             "nullable": true,
             "type": "string"
           },
@@ -2787,7 +2787,7 @@
             "$ref": "#/components/schemas/PackageDerivation-Input"
           },
           "cache_uri": {
-            "title": "Cache Uri",
+            "title": "Cache URI",
             "nullable": true,
             "type": "string"
           },
@@ -3427,7 +3427,7 @@
             "format": "date-time"
           },
           "cache_uri": {
-            "title": "Cache Uri",
+            "title": "Cache URI",
             "nullable": true,
             "type": "string"
           }
@@ -3592,7 +3592,7 @@
       "PublishInfoResponseCatalog": {
         "properties": {
           "ingress_uri": {
-            "title": "Ingress Uri",
+            "title": "Ingress URI",
             "nullable": true,
             "type": "string"
           },
@@ -3831,7 +3831,7 @@
             "format": "date-time"
           },
           "cache_uri": {
-            "title": "Cache Uri",
+            "title": "Cache URI",
             "nullable": true,
             "type": "string"
           },
