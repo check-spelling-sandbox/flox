@@ -2327,7 +2327,7 @@ Attributes:
     ///      ]
     ///    },
     ///    "install_id": {
-    ///      "title": "Install Id",
+    ///      "title": "Install ID",
     ///      "type": "string"
     ///    },
     ///    "systems": {
@@ -3745,7 +3745,7 @@ Attributes:
     ///      ]
     ///    },
     ///    "install_id": {
-    ///      "title": "Install Id",
+    ///      "title": "Install ID",
     ///      "type": "string"
     ///    },
     ///    "license": {
@@ -4502,7 +4502,7 @@ Attributes:
     ///      "format": "date-time"
     ///    },
     ///    "id": {
-    ///      "title": "Id",
+    ///      "title": "ID",
     ///      "type": "integer"
     ///    },
     ///    "name": {

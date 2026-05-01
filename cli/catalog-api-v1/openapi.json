@@ -3044,7 +3044,7 @@
         "properties": {
           "install_id": {
             "type": "string",
-            "title": "Install Id"
+            "title": "Install ID"
           },
           "attr_path": {
             "type": "string",
@@ -3837,7 +3837,7 @@
           },
           "install_id": {
             "type": "string",
-            "title": "Install Id"
+            "title": "Install ID"
           }
         },
         "type": "object",
@@ -4126,7 +4126,7 @@
         "properties": {
           "id": {
             "type": "integer",
-            "title": "Id"
+            "title": "ID"
           },
           "name": {
             "type": "string",
