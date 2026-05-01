@@ -847,7 +847,7 @@
           "catalogs"
         ],
         "summary": "Request access and info to publish a package",
-        "description": "Request access and informatin to publish a package to this catalog.\nPath Parameters:\n- **catalog_name**: The name of the catalog\n- **package_name**: The name of the package\nBody Content:\n- **PublishInfoRequest**: The information needed to publish to the catalog\nReturns:\n- **PublishRequestResponse**",
+        "description": "Request access and information to publish a package to this catalog.\nPath Parameters:\n- **catalog_name**: The name of the catalog\n- **package_name**: The name of the package\nBody Content:\n- **PublishInfoRequest**: The information needed to publish to the catalog\nReturns:\n- **PublishRequestResponse**",
         "operationId": "publish_request_api_v1_catalog_catalogs__catalog_name__packages__package_name__publish_info_post",
         "security": [
           {
