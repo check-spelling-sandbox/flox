@@ -847,7 +847,7 @@
           "catalogs"
         ],
         "summary": "Request access and info to publish a package",
-        "description": "Request access and informatin to publish a package to this catalog.\nPath Parameters:\n- **catalog_name**: The name of the catalog\n- **package_name**: The name of the package\nBody Content:\n- **PublishInfoRequest**: The information needed to publish to the catalog\nReturns:\n- **PublishRequestResponse**",
+        "description": "Request access and information to publish a package to this catalog.\nPath Parameters:\n- **catalog_name**: The name of the catalog\n- **package_name**: The name of the package\nBody Content:\n- **PublishInfoRequest**: The information needed to publish to the catalog\nReturns:\n- **PublishRequestResponse**",
         "operationId": "publish_request_api_v1_catalog_catalogs__catalog_name__packages__package_name__publish_info_post",
         "security": [
           {
@@ -2254,11 +2254,11 @@
           },
           "ingress_uri": {
             "type": "string",
-            "title": "Ingress Uri"
+            "title": "Ingress URI"
           },
           "egress_uri": {
             "type": "string",
-            "title": "Egress Uri"
+            "title": "Egress URI"
           }
         },
         "type": "object",
@@ -2670,7 +2670,7 @@
             "$ref": "#/components/schemas/PackageDerivation-Output"
           },
           "cache_uri": {
-            "title": "Cache Uri",
+            "title": "Cache URI",
             "nullable": true,
             "type": "string"
           },
@@ -2787,7 +2787,7 @@
             "$ref": "#/components/schemas/PackageDerivation-Input"
           },
           "cache_uri": {
-            "title": "Cache Uri",
+            "title": "Cache URI",
             "nullable": true,
             "type": "string"
           },
@@ -3044,7 +3044,7 @@
         "properties": {
           "install_id": {
             "type": "string",
-            "title": "Install Id"
+            "title": "Install ID"
           },
           "attr_path": {
             "type": "string",
@@ -3427,7 +3427,7 @@
             "format": "date-time"
           },
           "cache_uri": {
-            "title": "Cache Uri",
+            "title": "Cache URI",
             "nullable": true,
             "type": "string"
           }
@@ -3592,7 +3592,7 @@
       "PublishInfoResponseCatalog": {
         "properties": {
           "ingress_uri": {
-            "title": "Ingress Uri",
+            "title": "Ingress URI",
             "nullable": true,
             "type": "string"
           },
@@ -3831,13 +3831,13 @@
             "format": "date-time"
           },
           "cache_uri": {
-            "title": "Cache Uri",
+            "title": "Cache URI",
             "nullable": true,
             "type": "string"
           },
           "install_id": {
             "type": "string",
-            "title": "Install Id"
+            "title": "Install ID"
           }
         },
         "type": "object",
@@ -4126,7 +4126,7 @@
         "properties": {
           "id": {
             "type": "integer",
-            "title": "Id"
+            "title": "ID"
           },
           "name": {
             "type": "string",

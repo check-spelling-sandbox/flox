@@ -581,11 +581,11 @@ manifest packages were built via the traditional flox manifest workflow.*/
     ///  ],
     ///  "properties": {
     ///    "egress_uri": {
-    ///      "title": "Egress Uri",
+    ///      "title": "Egress URI",
     ///      "type": "string"
     ///    },
     ///    "ingress_uri": {
-    ///      "title": "Ingress Uri",
+    ///      "title": "Ingress URI",
     ///      "type": "string"
     ///    },
     ///    "store_type": {
@@ -1623,7 +1623,7 @@ Attributes:
     ///      "$ref": "#/components/schemas/BuildType"
     ///    },
     ///    "cache_uri": {
-    ///      "title": "Cache Uri",
+    ///      "title": "Cache URI",
     ///      "type": [
     ///        "string",
     ///        "null"
@@ -1846,7 +1846,7 @@ Attributes:
     ///      "$ref": "#/components/schemas/BuildType"
     ///    },
     ///    "cache_uri": {
-    ///      "title": "Cache Uri",
+    ///      "title": "Cache URI",
     ///      "type": [
     ///        "string",
     ///        "null"
@@ -2327,7 +2327,7 @@ Attributes:
     ///      ]
     ///    },
     ///    "install_id": {
-    ///      "title": "Install Id",
+    ///      "title": "Install ID",
     ///      "type": "string"
     ///    },
     ///    "systems": {
@@ -2827,7 +2827,7 @@ Attributes:
     ///      ]
     ///    },
     ///    "cache_uri": {
-    ///      "title": "Cache Uri",
+    ///      "title": "Cache URI",
     ///      "type": [
     ///        "string",
     ///        "null"
@@ -3448,7 +3448,7 @@ Attributes:
     ///      "additionalProperties": true
     ///    },
     ///    "ingress_uri": {
-    ///      "title": "Ingress Uri",
+    ///      "title": "Ingress URI",
     ///      "type": [
     ///        "string",
     ///        "null"
@@ -3713,7 +3713,7 @@ Attributes:
     ///      ]
     ///    },
     ///    "cache_uri": {
-    ///      "title": "Cache Uri",
+    ///      "title": "Cache URI",
     ///      "type": [
     ///        "string",
     ///        "null"
@@ -3745,7 +3745,7 @@ Attributes:
     ///      ]
     ///    },
     ///    "install_id": {
-    ///      "title": "Install Id",
+    ///      "title": "Install ID",
     ///      "type": "string"
     ///    },
     ///    "license": {
@@ -4502,7 +4502,7 @@ Attributes:
     ///      "format": "date-time"
     ///    },
     ///    "id": {
-    ///      "title": "Id",
+    ///      "title": "ID",
     ///      "type": "integer"
     ///    },
     ///    "name": {
@@ -5391,7 +5391,7 @@ Sends a `POST` request to `/api/v1/catalog/catalogs/{catalog_name}/packages/{pac
     }
     /**Request access and info to publish a package
 
-Request access and informatin to publish a package to this catalog.
+Request access and information to publish a package to this catalog.
 Path Parameters:
 - **catalog_name**: The name of the catalog
 - **package_name**: The name of the package
